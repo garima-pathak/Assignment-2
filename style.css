@@ -1,0 +1,52 @@
+*{
+    background-color: lightgray;
+    color: white;
+}
+h1::before{
+    content: "\1F4DE";
+    margin-right: 20px;
+}
+div::before{
+    content:"👤";
+    border: 15px solid;
+    border-color: black;
+    border-radius:50% ;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 220px;
+}
+h1{
+    background: black;
+    text-align: center;
+}
+p{
+    background: black;
+    margin-left: 30px;
+    position: sticky;
+    height: 30px;
+    margin-bottom: 10px;
+    top:0px 
+}
+hr{
+    border-color: rgb(77, 62, 62);
+}
+section{
+    margin: 10px auto;
+    border: 20px solid;
+    border-color: black;
+    margin:  auto;
+    background: black;
+    border-radius: 25px;
+    width: 40vw;
+}
+
+div{
+    border: 2px solid;
+    margin: 5px auto;
+    border-radius: 25px;
+    background: rgb(107, 104, 104);
+    border-color: rgb(107, 104, 104);
+    padding: 20px;
+    width: 30vw;
+    height: 15px;
+}
